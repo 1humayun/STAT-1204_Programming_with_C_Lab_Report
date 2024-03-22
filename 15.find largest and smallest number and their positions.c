@@ -10,10 +10,7 @@ int main()
 
     printf("Enter %d elements: \n");
     for( i = 0 ; i < n ; i++ )
-    {
-        printf("arr[%d] = ", i);
         scanf("%d", &arr[i]);
-    }
 
     int max = arr[0], min = arr[0], max_pos = 0, min_pos = 0;
     
